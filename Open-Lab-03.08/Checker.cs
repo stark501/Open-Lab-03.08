@@ -6,7 +6,8 @@ namespace Open_Lab_03._08
     {
         public bool IsPlural(string word)
         {
-            throw new NotImplementedException();
+            bool mnoznecislo = word.EndsWith("s");
+            return mnoznecislo;
         }
     }
 }
